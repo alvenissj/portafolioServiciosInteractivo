@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--INDEX PRINCIPAL DE LA PÁGINA--> 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Portafolio</title>
+  </head>
+  
+    <body class="dark">
+
+        <!--Cabecera de la página--> 
+        <header class="header">
+            <!--Contenedor del icono dark mode y el texto-->
+                <div class="switches">
+                  <div id="toggle-theme" class="toggle-theme">
+                    <img id="toggle-theme__icon" class="toggle-theme__icon" src="./icons/moon.svg" alt="icon theme"> 
+                    <p id="toggle-theme__text" class="toggle-theme__text">Modo Oscuro</p>
+                  </div>
+                </div>
+
+              <!--Contenedor de los colores-->
+              <div id="toggle-colors" class="colors">
+                <div data-color="hsl(184, 89%, 51%)" class="colors__item colors__item--blue"></div>
+                <div data-color="hsl(0, 100%, 51%)" class="colors__item colors__item--red"></div>
+                <div data-color="hsl(24, 97%, 38%)" class="colors__item colors__item--orange"></div>
+                <div data-color="hsl(152, 91%, 42%)" class="colors__item colors__item--green"></div>
+              </div>
+
+        </header>
+
+        <!--Cuerpo principal de la página web--> 
+        <main class="main">
+
+            <section class="column colum--left">
+                <!--PROFILE CARD-->
+              <article class="card card--profile">
+
+                    <div class="card__image-container-perfil">
+                      <img src="./images/foto-inicio.png" class="img" alt="">
+                    </div>
+
+                    <div class="card__header">
+                        <h2 class="card__title no-margin">👋🌐 ALVENIS BECERRA | Ingeniero de Sistemas 📚💻👋</h2>
+                        <p class="card__text">INGENIERO DE SISTEMAS Full Stack | Node.js | React.js | API RESTful | Frontend | Backend | SQL | MongoDB
+</p>
+                        <p class="card__text" data-section="profile" data-value="description">
+                          Ingeniero de Sistemas con experiencia en gestión y control de proyectos tecnológicos, desarrollo de software y operación de servicios de telecomunicaciones. Sólida formación en desarrollo backend con Node.js, diseño e implementación de APIs RESTful, manejo de bases de datos relacionales (SQL Server, MySQL) y NoSQL (MongoDB), así como desarrollo frontend con React.js y JavaScript (ES6+). Profesional disciplinado, orientado a procesos, calidad y cumplimiento, con capacidad para integrarse a equipos multidisciplinarios y un fuerte compromiso con el aprendizaje continuo y la mejora permanente.
+                        </p>
+                    </div>
+
+                        <div class="card__body">
+                          <div class="card__link">
+                            <i class="fas fa-envelope icon"></i>
+                            <a href="mailto:Alvenisj@gmail.com">Alvenisj@gmail.com</a>
+                        </div>
+                      <div class="card__link">
+                          <i class="fas fa-phone-alt icon"></i>
+                          <a href="https://wa.me/573232914082?text=¡HOLA!%20Alvenis%20Becerra,%20necesito%20información%20de%20los%20servicios%20de%20Desarrollo%20Web" class="icon-whatsapp">
+                            Click | Whatsapp Célular
+                            <i class="fa-brands fa-whatsapp"></i>
+                          </a>
+                      </div>
+
+                      <div class="button-container">
+                        <a href="#" class="btn modal-btn">Contáctame</a>
+                      </div>
+
+                          <div class="fotoPerfil">
+                                  <img src="./images/purple_fedora.svg" alt="planification">
+                          </div>
+              
+              </article>
+            
+              <article class="card card--experience">
+                  <div class="experience">
+                  <h3 class="experience__job" data-section="experience" data-value= "firs-job-title">EDUCACIÓN</h3>
+                  <img src="./images/icongrad.png" alt="logo" class="experience__image">
+                    <div class="experience__info">
+                           <p class="experience__time" data-section="experience" data-value="firs-job-dates">
+                              Universidad Nacional Experimental Politecnica de la Fuerza Armada Nacional – UNEFA | Táchira, Venezuela | Marzo 2014
+                          </p>
+                          <h3 class="experience__job" data-section="experience" data-value= "firs-job-title">Título: Ingeniero de Sistemas</h3>
+                    </div>
+                 </div>
+                 </article>
+                        
+                 <article class="card card--experience">
+                    <h2 class="card__title">Experiencias</h2>
+
+                      <div class="experience">
+                          <img src="./images/FTTH.png" alt="Telecomunicaciones – Fibra Óptica FTTH/HFC" class="experience__image">
+                            <div class="experience__info">
+                                    <p class="experience__time" data-section="experience" data-value="firs-job-dates">
+                                      Técnico de Telecomunicaciones – Claro Colombia (Aliado DICO S.A.S) Bogotá, Colombia | Septiembre 2024 – Actualidad
+
+                                  </p>
+                                  <h3 class="experience__job" data-section="experience" data-value= "firs-job-title">Técnico de Telecomunicaciones</h3>
+                                  <ul class="experience__description" data-section="experience" data-value= "firs-job-description">
+                                    Instalación, mantenimiento y soporte técnico de servicios de telecomunicaciones FTTH (Fibra Óptica Hasta el Hogar) y HFC (Hybrid Fiber-Coaxial), garantizando la continuidad y calidad del servicio al cliente final; ejecución de actividades técnicas en campo en entornos de alta presión operativa, cumpliendo tiempos establecidos, estándares de calidad y acuerdos de nivel de servicio (SLA); cumplimiento estricto de protocolos de seguridad, normativas técnicas y procedimientos operativos, minimizando riesgos y asegurando la integridad de la infraestructura; gestión eficiente de recursos, herramientas y materiales asignados para la ejecución de órdenes de trabajo; seguimiento y cumplimiento de indicadores clave de desempeño (KPIs) asociados a productividad, calidad, tiempos de atención y efectividad, vinculados a esquemas de bonificación por desempeño; atención técnica directa al cliente con enfoque en la resolución efectiva de incidentes, comunicación clara y satisfacción del usuario. Actualmente se desempeña en un rol técnico asumido de forma estratégica y deliberada, en el marco del proceso de homologación y convalidación del título universitario de Ingeniero de Sistemas ante el Ministerio de Educación Nacional de Colombia, etapa durante la cual fortaleció competencias operativas, rigurosidad técnica, capacidad de respuesta en entornos de alta exigencia y comprensión integral de la prestación de servicios tecnológicos en campo; dicho proceso culminó en febrero de 2026 mediante acto administrativo de convalidación y reconocimiento del título, con concepto favorable, lo que habilita formalmente el ejercicio pleno de la Ingeniería de Sistemas en la República de Colombia y la reactivación de su trayectoria profesional en el sector TIC
+                                  </ul>
+                            </div>
+                        </div>
+
+                 </article>
+                        <article class="card card--experience">
+                        <div class="experience">
+                          <img src="./images/nodejs.svg" alt="logo" class="experience__image">
+                            <div class="experience__info">
+                                    <p class="experience__time" data-section="experience" data-value="second-job-dates">
+                                      Bogotá, Colombia | Junio 2018 – Agosto 2024.
+                                  </p>
+                                  <h3 class="experience__job" data-section="experience" data-value="second-job-title">Ingeniero de Sistemas / Desarrollador Full Stack (Formación continua y proyectos independientes)</h3>
+                                  <ul class="experience__description">
+                                      Desarrollo y fortalecimiento continuo de competencias técnicas y profesionales en desarrollo backend y frontend mediante estudio autodidacta, cursos especializados y proyectos prácticos. Diseño y desarrollo de aplicaciones web y APIs RESTful utilizando Node.js, Express.js y React.js, aplicando buenas prácticas de arquitectura modular y principios de desarrollo mantenible. Implementación y consumo de servicios REST, ejecución de pruebas funcionales de endpoints y validación de flujos de negocio mediante herramientas como Postman. Gestión y modelado de bases de datos relacionales y NoSQL en el contexto de proyectos personales y pruebas técnicas. Actualización constante en tecnologías, herramientas y fundamentos de la ingeniería de sistemas, orientado a la inserción profesional formal en el sector Tecnologías de la Información y Comunicaciones (TIC)
+                                  </ul>
+                            </div>
+                        </div>
+                      </article>
+
+                      <article class="card card--experience">
+                        <div class="experience">
+                          <img src="./images/nodejs.svg" alt="logo" class="experience__image">
+                            <div class="experience__info">
+                                    <p class="experience__time" data-section="experience" data-value="second-job-dates">
+                                      Caracas, Venezuela | Enero 2015 – Junio 2018
+                                  </p>
+                                  <h3 class="experience__job" data-section="experience" data-value="second-job-title">Ingeniero de Sistemas – Gestión, Control y Supervisión de Proyectos Tecnológicos | Muronto – Centro de Innovación para el Desarrollo</h3>
+                                  <ul class="experience__description">
+                                      Planificación, control y supervisión de proyectos de innovación y desarrollo tecnológico ejecutados en el marco de la administración pública del sector Defensa, incluyendo la coordinación técnica y administrativa de la ejecución física y financiera de obras, adecuaciones, bienes y servicios, según la naturaleza del objeto contractual. Evaluación del desempeño de empresas contratistas, verificando el cumplimiento de condiciones técnicas, administrativas y contractuales, así como participación en procesos de contratación pública mediante adjudicaciones directas y concursos abiertos, garantizando el cumplimiento de la Ley de Contrataciones Públicas y los protocolos establecidos antes, durante y después de la contratación. Fortalecimiento de los procesos de recolección, organización y sistematización de la información mediante la digitalización de expedientes físicos y la optimización de la gestión documental para el seguimiento de proyectos. Gestión y actualización de bases de datos con información técnica proveniente de inspecciones en campo, asegurando la trazabilidad entre la planeación contractual y la ejecución real de los proyectos. Apoyo a la Gerencia de Proyectos en procesos de auditoría e interventoría, comparando la documentación contractual con la ejecución física para la detección temprana de incumplimientos y la toma de decisiones oportunas. Desarrollo de habilidades de liderazgo, comunicación asertiva y manejo de personal, coordinando equipos técnicos y administrativos en un entorno de alta responsabilidad institucional, desempeñando simultáneamente el rol de Teniente Asimilado de la Guardia Nacional, en coordinación permanente con el departamento de Tecnologías de la Información y Comunicaciones (TIC) de la institución.
+                                  </ul>
+                            </div>
+                        </div>
+                      </article>
+
+
+                    <article class="card card--hobbies">
+              
+                              <h2 class="card__title">Entretenimientos</h2>
+            
+                              <div class="card__image-container">
+                                      <img src="./images/e.jpg" alt="Man on a bike">
+                              </div>
+
+                              <h3 class="hobbie__title">Ciclismo</h3>
+                              <p class="card__text">
+                                Andar en bicicleta es una actividad fantástica que ofrece una mezcla perfecta de ejercicio, recreación y movilidad. Montar en bicicleta no solo proporciona una liberación física del estrés acumulado, sino que también brinda una sensación de libertad y aventura. Este pasatiempo es conocido por promover la buena salud y la aptitud física, ya que fortalece los músculos, mejora la resistencia cardiovascular y ayuda a mantener un peso saludable. En resumen, andar en bicicleta es una actividad enriquecedora y accesible que ofrece numerosos beneficios para la salud y el bienestar. Es una forma divertida y eficiente de explorar el entorno, mantenerse en forma y disfrutar del aire libre. Con el enfoque y la preparación adecuados, cualquier persona puede aprovechar al máximo esta actividad y convertirla en un pasatiempo duradero y gratificante.
+
+                              </p>
+
+                    </article>
+
+
+                    <article class="card card--hobbies">
+
+                            <div class="card__image-container">
+                              <img src="./images/d.jpg" alt="Caminar">
+                            </div>
+                            <h3 class="hobbie__title">Senderismo/Paseos por la naturaleza</h3>
+                            <p class="card__text">
+                              Hacer senderismo es una actividad maravillosa que combina ejercicio físico, aventura y una conexión profunda con la naturaleza. Permite a las personas explorar una variedad de paisajes. Cada sendero ofrece una oportunidad única de descubrir la biodiversidad de la zona, observar la fauna local y disfrutar de la flora en su entorno natural. El senderismo puede adaptarse a diferentes niveles de habilidad y experiencia, desde caminatas suaves en senderos bien marcados hasta desafiantes ascensos en terrenos escarpados. Esto lo hace accesible a personas de todas las edades y niveles de forma física. Equiparse adecuadamente con ropa y calzado cómodo, llevar suficiente agua y algunos snacks, y planificar la ruta antes de salir son aspectos importantes para disfrutar de una experiencia segura y agradable.
+                            </p>
+
+                    </article>
+              
+              </article>
+
+            </section>
+
+            <!--SEGUNDA SECCIÓN DEL LADO DERECHO DE LA PÁGINA-->
+            <section class="column column--right">
+          
+                  <article class="card">
+                          <h2 class="card__title">FrontEnd</h2>
+                          <small>Años de Experiencia</small>
+                          <div class="skills"></div>
+
+                          <div class="skills__header">
+                              <span class="skills__start-level">0</span>   
+                              <span class="skills__start-level">5</span>
+                          </div>
+
+                          <div class="skills">
+                                <div class="skills__item">
+                                    <p class="skills__tech">Javascript</p>
+                                    <div class="skills__bar skills__bar--90"></div>
+                                </div>
+                                <div class="skills__item">
+                                    <p class="skills__tech">React</p>
+                                    <div class="skills__bar skills__bar--50"></div>
+                                </div>
+                                <div class="skills__item">
+                                    <p class="skills__tech">Typescript</p>
+                                    <div class="skills__bar skills__bar--40"></div>
+                                </div>
+
+                                <div class="skills__item">
+                                    <p class="skills__tech">Css, Sass</p>
+                                    <div class="skills__bar skills__bar--90"></div>
+                                </div>
+
+                                <div class="skills__item">
+                                    <p class="skills__tech">HTML5</p>
+                                    <div class="skills__bar skills__bar--90"></div>
+                                </div>
+                          </div>
+                  </article>
+
+                  <article class="card">
+                      <h2 class="card__title">BackEnd</h2>
+                      <small>Años de Experiencia</small>
+                      <div class="skills"></div>
+
+                      <div class="skills__header">
+                          <span class="skills__start-level">0</span>   
+                          <span class="skills__start-level">5</span>
+                      </div>
+
+                      <div class="skills">
+
+                            <div class="skills__item">
+                                <p class="skills__tech">Node JS</p>
+                                <div class="skills__bar skills__bar--90"></div>
+                            </div>
+
+                            <div class="skills__item">
+                              <p class="skills__tech">Api Rest</p>
+                              <div class="skills__bar skills__bar--80"></div>
+                          </div>
+
+                            <div class="skills__item">
+                                <p class="skills__tech">C++</p>
+                                <div class="skills__bar skills__bar--20"></div>
+                            </div>
+
+                            <div class="skills__item">
+                              <p class="skills__tech">SQL</p>
+                              <div class="skills__bar skills__bar--90"></div>
+                          </div>
+                          <div class="skills__item">
+                              <p class="skills__tech">MongoDb</p>
+                              <div class="skills__bar skills__bar--60"></div>
+                          </div>
+                      </div>
+                  </article>
+
+                  <article class="card">
+                      <h2 class="card__title">skills and knowledge</h2>
+                      <small>additional skills</small>
+                      <div class="skills"></div>
+
+                      <div class="skills">
+
+                            <div class="skills__item">
+                                <p class="skills__tech">Extensive problem solving ability</p>
+                                <div class="skills__bar skills__bar--90"></div>
+                            </div>
+
+                            <div class="skills__item">
+                                <p class="skills__tech">Methodical and creative ability.</p>
+                                <div class="skills__bar skills__bar--80"></div>
+                            </div>
+
+                            <div class="skills__item">
+                              <p class="skills__tech">Knowledge of computer systems</p>
+                              <div class="skills__bar skills__bar--100"></div>
+                          </div>
+                            <div class="skills__item">
+                              <p class="skills__tech">team collaboration</p>
+                              <div class="skills__bar skills__bar--100"></div>
+                          </div>
+
+                          
+                            <div class="skills__item">
+                              <p class="skills__tech">English fluency</p>
+                              <div class="skills__bar skills__bar--70"></div>
+                          </div>
+                      </div>
+                  </article>
+
+
+                  <article class="card card--project">
+                    
+                        <div class="card__image-container">
+                            <img class="card__image" src="./images/f.jpg" alt="Landing Page">
+                        </div>
+                    <div class="project">
+
+                          <div class="project__tags">
+                              <span class="project__tag">#MongoDb</span>
+                              <span class="project__tag">#CSS</span>
+                              <span class="project__tag">#Javascript</span>
+                              <span class="project__tag">#NodeJs</span>
+                              
+                          </div>
+
+                          <h2 class="card__title">Sitio Web (Javascript vanilla)</h2>
+                          <p class="card__text">Sitio web desarrollado para una pequeña empresa; utilizando las tecnologías de HTML, JAVASCRIPT (VANILLA), CSS (AVANZADO)</p>
+                          <p class="card__text">GENALCA, Es una empresa de limpieza genérica, dedicada a la venta al por mayor y menor de sus productos.</p>
+              
+                          <div class="buttons">
+                              <a href="https://alvenisj.github.io/app-genalcaWeb/" class="button button--primary">Demo</a>
+                              <a href="https://github.com/Alvenisj/app-genalcaWeb" class="button button--ghost">Code</a>
+                        </div>
+
+                    </div> 
+                  </article>
+
+                  <article class="card card--project">  
+                      <div class="card__image-container">
+                          <img class="card__image" src="./images/g.jpg" alt="Landing Page">
+                      </div>
+                    
+                      <div class="project">
+                            <div class="project__tags">
+                                <span class="project__tag">#HTML</span>
+                                <span class="project__tag">#CSS</span>
+                                <span class="project__tag">#MySql</span>
+                                <span class="project__tag">#Api Restful</span>
+                            </div>
+                        
+                          <h2 class="card__title">Menu and submenu Responsive (Javascript vanilla)</h2>
+                          <p class="card__text">Menú dinámico y responsivo de un sitio web, desarrollado con JavaScript Vanilla</p>
+                          
+                          <div class="buttons">
+                              <a href="https://alvenisj.github.io/app-dinamicMenuWeb" class="button button--primary">Demo</a>
+                              <a href="https://github.com/Alvenisj/app-dinamicMenuWeb" class="button button--ghost">Code</a>
+                          </div>
+                      </div>
+                  </article>
+
+                  <article class="card card--project">
+                    
+                        <div class="card__image-container">
+                            <img class="card__image" src="./images/h.jpg" alt="Landing Page">
+                        </div>
+                    <div class="project">
+                          <div class="project__tags">
+                              <span class="project__tag">#IA</span>
+                              <span class="project__tag">#Linux</span>
+                              <span class="project__tag">#Javascript</span>
+                              <span class="project__tag">#GitHub</span>
+                          </div>
+                            <h2 class="card__title">Formulario y Validación (Javascript vanilla)</h2>
+                            <p class="card__text">Es un formulario desarrollado con javascript vanilla que se encarga de validad el ingreso de datos</p>
+                          <div class="buttons">
+                              <a href="https://alvenisj.github.io/formularioEnvioEmailJavascript/" class="button button--primary">Demo</a>
+                              <a href="https://github.com/Alvenisj/formularioEnvioEmailJavascript" class="button button--ghost">Code</a>
+                        </div>
+                    </div>
+                  </article>
+
+                  <article class="card card--project">  
+                        <div class="card__image-container">
+                            <img class="card__image" src="./images/i.jpg" alt="Landing Page">
+                        </div>
+                        <div class="project">
+                        
+                          <div class="project__tags">
+                              <span class="project__tag">#HTML</span>
+                              <span class="project__tag">#CSS</span>
+                              <span class="project__tag">#Javascript</span>
+                              <span class="project__tag">#Responsive</span>
+                          </div>
+                        
+                          <h2 class="card__title">Lista de Tareas (Vanilla Javascript)</h2>
+                          <p class="card__text">Proyecto de lista de tareas, desarrollado con javascript Vanilla. Crea una lista de tareas y puedes agregar, editar o eliminar nuevas tareas.</p>
+                          
+                          <div class="buttons">
+                              <a href="https://alvenisj.github.io/app-taskJavascript/" class="button button--primary">Demo</a>
+                              <a href="https://github.com/Alvenisj/app-taskJavascript" class="button button--ghost">Code</a>
+                          </div>
+                        
+                        </div>
+                  </article>
+
+                  <article class="card card--project">
+                        <div class="card__image-container">
+                            <img class="card__image" src="./images/f.jpg" alt="Landing Page">
+                        </div>
+                        <div class="project">
+
+                          <div class="project__tags">
+                              <span class="project__tag">#ReactJs</span>
+                              <span class="project__tag">#CSS</span>
+                              <span class="project__tag">#Javascript</span>
+                              <span class="project__tag">#Responsive</span>
+                          </div>
+
+                          <h2 class="card__title">Interfaz Simulando Twitter Following (React)</h2>
+                          <p class="card__text">Una interfaz React que simula la funcionalidad de seguir y dejar de seguir de Twitter. Permite a los usuarios administrar el estado de seguimiento con actualizaciones en tiempo real. Utiliza componentes reutilizables de React para una experiencia interactiva y dinámica.</p>
+                        
+                          <div class="buttons">
+                              <a href="https://alvenisj.github.io/interfazTwitterFollowing/" class="button button--primary">Demo</a>
+                              <a href="https://github.com/Alvenisj/interfazTwitterFollowing/" class="button button--ghost">Code</a>
+                          </div>
+
+                        </div>
+                  </article>
+
+                  <article class="card card--project">
+                        <div class="card__image-container">
+                            <img class="card__image" src="./images/k.jpg" alt="Landing Page">
+                        </div>
+                      <div class="project">
+                      
+                        <div class="project__tags">
+                            <span class="project__tag">#TypeScript</span>
+                            <span class="project__tag">#ApiRest</span>
+                            <span class="project__tag">#Javascript</span>
+                            <span class="project__tag">#Window</span>
+                        </div>
+                      
+                        <h2 class="card__title">App Lista Tareas (ReactJs)</h2>
+                        <p class="card__text">Proyecto desarrollado con ReactJs; Es una aplicación que registra tareas y luego el usuario puede eliminarlas o marcarlas como completadas.</p>
+                        <div class="buttons">
+                            <a href="https://alvenisj.github.io/app-tasksReact/" class="button button--primary">Demo</a>
+                            <a href="https://github.com/Alvenisj/app-tasksReact" class="button button--ghost">Code</a>
+                        </div>
+                      
+                      </div>
+                  </article>
+
+                  <article class="card card--project">
+                        <div class="card__image-container">
+                            <img class="card__image" src="./images/l.jpg" alt="Landing Page">
+                        </div>
+                        <div class="project">
+                        
+                          <div class="project__tags">
+                              <span class="project__tag">#Apple</span>
+                              <span class="project__tag">#ApiRest</span>
+                              <span class="project__tag">#Javascript</span>
+                              <span class="project__tag">#HTML</span>
+                          </div>
+                        
+                          <h2 class="card__title">Aplicación de Paginación (Javascript vanilla)</h2>
+                          <p class="card__text">Es una aplicación que consume una API y se encarga de paginar a los usuarios solicitados a una API de github y los muestra en la interfaz de acuerdo a la paginación.</p>
+                        
+                          <div class="buttons">
+                              <a href="https://alvenisj.github.io/app-paginationJs" class="button button--primary">Demo</a>
+                              <a href="https://github.com/Alvenisj/app-paginationJs" class="button button--ghost">Code</a>
+                          </div>
+                        
+                        </div>
+                  </article>
+
+                  <article class="card card--project"> 
+                        <div class="card__image-container">
+                              <img class="card__image" src="./images/m.jpg" alt="Landing Page">
+                        </div>
+                        <div class="project">
+
+                          <div class="project__tags">
+                              <span class="project__tag">#HTML</span>
+                              <span class="project__tag">#CSS</span>
+                              <span class="project__tag">#Javascript</span>
+                              <span class="project__tag">#Responsive</span>
+                          </div>
+
+                          <h2 class="card__title">Ventana Modal (Javascript vanilla)</h2>
+                          <p class="card__text">Es una aplicación que muestra una ventana modal en toda la pantalla del sitio web.</p>
+                          <div class="buttons">
+                              <a href="https://alvenisj.github.io/app-ventanaModalJavascript/" class="button button--primary">Demo</a>
+                              <a href="https://github.com/Alvenisj/app-ventanaModalJavascript" class="button button--ghost">Code</a>
+                          </div>
+
+                        </div>
+                  </article>
+
+            </section>
+        </main>
+
+
+        <footer class="footer">
+          <div class="social">
+              <a href="https://www.facebook.com/alvenisj" class="icon-facebook">
+                  <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://twitter.com/alvenisj" class="icon-twitter">
+                  <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/alvenisj" class="icon-instagram">
+                  <i class="fa-brands fa-instagram-square"></i>
+              </a>
+              <a href="https://wa.me/573232914082?text=¡HOLA!%20Alvenis%20Becerra,%20necesito%20información%20de%20los%20servicios%20de%20Desarrollo%20Web" class="icon-whatsapp">
+                  <i class="fa-brands fa-whatsapp"></i>
+              </a>
+
+            
+          </div>
+          <p class="copy">Alvenis Becerra | Ingeniero de Sistemas | <a class="footer-copy" href="#">Copyright &copy; 2026 all right reserved</a></p>
+        </footer>
+
+        <!-- modal -->
+        <div class="modal-overlay">
+          <div class="modal-container">
+            <h3>¡Portafolio Web de Servicios!</h3>
+            <p>
+              <strong>Node.js | React.js | API RESTful | Frontend | Backend | SQL | MongoDB.</strong><br>
+              Ingeniero de Sistemas Full Stack con una sólida experiencia en el desarrollo y mantenimiento de servicios backend utilizando Node.js y Express.js. Me especializo en el diseño e implementación de API RESTful para respaldar aplicaciones frontend, priorizando la eficiencia y la escalabilidad.
+            </p>
+            <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <a href="https://wa.me/573232914082?text=¡HOLA!%20Alvenis%20Becerra,%20necesito%20información%20de%20los%20servicios%20de%20Desarrollo%20Web" class="contacto">
+              <i class="fa-brands fa-whatsapp"></i>  Whatsapp
+            </a>
+          </div>
+        </div>
+
+      <script src="./app.js"></script>
+   </body>
+
+</html>
